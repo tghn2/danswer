@@ -7,7 +7,7 @@ personas:
   - id: 0
     name: "Default"
     description: >
-      Default Danswer Question Answering functionality.
+      Default Question Answering functionality.
     # Default Prompt objects attached to the persona, see prompts.yaml
     prompts:
       - "Answer-Question"
