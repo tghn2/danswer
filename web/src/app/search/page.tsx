@@ -115,7 +115,7 @@ export default async function Home() {
       <div className="m-3">
         <HealthCheckBanner />
       </div>
-      <ApiKeyModal />
+      {/* <ApiKeyModal /> */}
       <InstantSSRAutoRefresh />
       {connectors.length === 0 && connectorsResponse?.ok && <WelcomeModal />}
       <div className="px-24 pt-10 flex flex-col items-center min-h-screen">

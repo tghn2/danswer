@@ -139,7 +139,7 @@ export default async function Page({
   return (
     <>
       <InstantSSRAutoRefresh />
-      <ApiKeyModal />
+      {/* <ApiKeyModal /> */}
 
       {connectors.length === 0 && <WelcomeModal />}
 

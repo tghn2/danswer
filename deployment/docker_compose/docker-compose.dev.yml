@@ -29,11 +29,11 @@ services:
       - SMTP_PASS=${SMTP_PASS:-}
       - EMAIL_FROM=${EMAIL_FROM:-}
       # Gen AI Settings
-      - GEN_AI_MODEL_PROVIDER=${GEN_AI_MODEL_PROVIDER:-openai}
-      - GEN_AI_MODEL_VERSION=${GEN_AI_MODEL_VERSION:-gpt-3.5-turbo}
-      - FAST_GEN_AI_MODEL_VERSION=${FAST_GEN_AI_MODEL_VERSION:-gpt-3.5-turbo}
-      - GEN_AI_API_KEY=${GEN_AI_API_KEY:-}
-      - GEN_AI_API_ENDPOINT=${GEN_AI_API_ENDPOINT:-}
+      - GEN_AI_MODEL_PROVIDER=${GEN_AI_MODEL_PROVIDER:-anyscale}
+      - GEN_AI_MODEL_VERSION=${GEN_AI_MODEL_VERSION:-mistralai/Mistral-7B-Instruct-v0.1}
+      - FAST_GEN_AI_MODEL_VERSION=${FAST_GEN_AI_MODEL_VERSION:-mistralai/Mistral-7B-Instruct-v0.1}
+      - GEN_AI_API_KEY=${GEN_AI_API_KEY:-esecret_d27fssdypulc4t2s7zjbiu28i7}
+      - GEN_AI_API_ENDPOINT=${GEN_AI_API_ENDPOINT:-https://api.endpoints.anyscale.com/v1}
       - GEN_AI_API_VERSION=${GEN_AI_API_VERSION:-}
       - GEN_AI_LLM_PROVIDER_TYPE=${GEN_AI_LLM_PROVIDER_TYPE:-}
       - QA_TIMEOUT=${QA_TIMEOUT:-}
@@ -92,11 +92,11 @@ services:
     restart: always
     environment:
       # Gen AI Settings (Needed by DanswerBot)
-      - GEN_AI_MODEL_PROVIDER=${GEN_AI_MODEL_PROVIDER:-openai}
-      - GEN_AI_MODEL_VERSION=${GEN_AI_MODEL_VERSION:-gpt-3.5-turbo}
-      - FAST_GEN_AI_MODEL_VERSION=${FAST_GEN_AI_MODEL_VERSION:-gpt-3.5-turbo}
-      - GEN_AI_API_KEY=${GEN_AI_API_KEY:-}
-      - GEN_AI_API_ENDPOINT=${GEN_AI_API_ENDPOINT:-}
+      - GEN_AI_MODEL_PROVIDER=${GEN_AI_MODEL_PROVIDER:-anyscale}
+      - GEN_AI_MODEL_VERSION=${GEN_AI_MODEL_VERSION:-mistralai/Mistral-7B-Instruct-v0.1}
+      - FAST_GEN_AI_MODEL_VERSION=${FAST_GEN_AI_MODEL_VERSION:-mistralai/Mistral-7B-Instruct-v0.1}
+      - GEN_AI_API_KEY=${GEN_AI_API_KEY:-esecret_d27fssdypulc4t2s7zjbiu28i7}
+      - GEN_AI_API_ENDPOINT=${GEN_AI_API_ENDPOINT:-https://api.endpoints.anyscale.com/v1}
       - GEN_AI_API_VERSION=${GEN_AI_API_VERSION:-}
       - GEN_AI_LLM_PROVIDER_TYPE=${GEN_AI_LLM_PROVIDER_TYPE:-}
       - QA_TIMEOUT=${QA_TIMEOUT:-}

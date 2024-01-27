@@ -177,22 +177,22 @@ const Main = () => {
       {popup}
 
       <Text className="mb-2">
-        Setup a Slack bot that connects to Danswer. Once setup, you will be able
-        to ask questions to Danswer directly from Slack. Additionally, you can:
+        Setup a Slack bot that connects to Bot. Once setup, you will be able
+        to ask questions to Bot directly from Slack. Additionally, you can:
       </Text>
 
       <Text className="mb-2">
         <ul className="list-disc mt-2 ml-4">
           <li>
-            Setup DanswerBot to automatically answer questions in certain
+            Setup Bot to automatically answer questions in certain
             channels.
           </li>
           <li>
-            Choose which document sets DanswerBot should answer from, depending
+            Choose which document sets Bot should answer from, depending
             on the channel the question is being asked.
           </li>
           <li>
-            Directly message DanswerBot to search just as you would in the web
+            Directly message BotBot to search just as you would in the web
             UI.
           </li>
         </ul>
